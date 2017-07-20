@@ -1,0 +1,104 @@
+﻿{
+	"returnData": {
+		"draw": "1",
+		"recordsFiltered": 13,
+		"data": [{
+			"id": "0",
+			"phone": "18600444999",
+			"username": "admin",
+			"status": 1,
+			"email": "admin@shanggucai.com"
+		},
+		{
+			"id": "018e2855069945a497b2b18f5c80ab8d",
+			"phone": "18201112597",
+			"username": "zhaoxiaogang",
+			"status": 1,
+			"email": "zxg630503474@qq.com",
+			"department_id": "e2f064a9a31340a589544525d9d7c9e2",
+			"department_position": 1,
+			"department_name": "后台"
+		},
+		{
+			"id": "03c3c4671ff04380a3a2ecc4616998a0",
+			"phone": "13264110566",
+			"username": "qili",
+			"status": 1,
+			"email": "li.qi@shanggucai.com",
+			"department_id": "e2f064a9a31340a589544525d9d7c9e2",
+			"department_position": 1,
+			"department_name": "后台"
+		},
+		{
+			"id": "2d3ce604963c4d279c5c2dee1c7aafaa",
+			"phone": "18810038855",
+			"username": "chenbb",
+			"status": 1,
+			"email": "c@c.com",
+			"department_id": "d014c71172c448dc893ce0c95c91e2b9",
+			"department_position": 1,
+			"department_name": "测试组"
+		},
+		{
+			"id": "45cc2602a94b4c30a1c401ca9c7d17aa",
+			"phone": "13146208376",
+			"username": "huohan",
+			"status": 1,
+			"email": "han.huo@shanggucai.com",
+			"department_id": "e2f064a9a31340a589544525d9d7c9e2",
+			"department_position": 0,
+			"department_name": "后台"
+		},
+		{
+			"id": "6153ee64961a4dd0a1eb0bfd2a713999",
+			"phone": "13051651995",
+			"username": "张晓飞",
+			"status": 1,
+			"email": "xiaofei.zhang@shanggucai.com",
+			"department_id": "e2f064a9a31340a589544525d9d7c9e2",
+			"department_position": 1,
+			"department_name": "后台"
+		},
+		{
+			"id": "9750d3c2e1bb40849aaaae77b8db528e",
+			"phone": "18810039988",
+			"username": "testadmin",
+			"status": 1,
+			"email": "testadmin@q.com",
+			"department_id": "d014c71172c448dc893ce0c95c91e2b9",
+			"department_position": 0,
+			"department_name": "测试组"
+		},
+		{
+			"id": "9fa5f621f131448bb348617b436b3701",
+			"phone": "18810003333",
+			"username": "wangxk",
+			"status": 1,
+			"email": "t@t.com",
+			"department_id": "d014c71172c448dc893ce0c95c91e2b9",
+			"department_position": 1,
+			"department_name": "测试组"
+		},
+		{
+			"id": "a048a6988bfc4cc7a30e0dadde8c6d94",
+			"phone": "17000000001",
+			"username": "dandan",
+			"status": 1,
+			"email": "dandan.zhou@shanggucai.com",
+			"department_id": "e2f064a9a31340a589544525d9d7c9e2",
+			"department_position": 1,
+			"department_name": "后台"
+		},
+		{
+			"id": "b19e7b03ec374b5a96058dcb852a8710",
+			"phone": "18810039966",
+			"username": "zhangt",
+			"status": 1,
+			"email": "t@d.com",
+			"department_id": "d014c71172c448dc893ce0c95c91e2b9",
+			"department_position": 1,
+			"department_name": "测试组"
+		}],
+		"recordsTotal": 13
+	}
+}

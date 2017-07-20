@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from www.zi-han.net/theme/hplus/tabs_panels.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:19:53 GMT -->
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>H+ 后台主题UI框架 - 选项卡 &amp; 面板</title>
+    <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台">
+    <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
+
+    <link rel="shortcut icon" href="http://cdn.dui1dui.com/diamond_center_pc/statics/images/favicon.ico"> 
+	<link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+	<link href="css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="css/style.min862f.css?v=4.1.0" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeIn">
+        
+		<div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+						<div style="width:100%; margin-bottom:30px; padding-bottom:10px; border-bottom:1px solid #e7eaec">
+							<button type="button" class="btn btn-primary" id="btn-advanced-search">添加用户</button>
+						</div>
+                       <form class="form-inline">
+                            <div class="form-group">
+                                <label style="margin-left:10px; ">    用户名：</label>
+                                <input type="email" placeholder="请输入用户名" id="exampleInputEmail2" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label style="margin-left:10px; ">    密码：</label>
+                                <input type="password" placeholder="请输入密码" id="exampleInputPassword2" class="form-control">
+                            </div>
+							<div class="form-group">
+                                <label style="margin-left:10px; ">    用户名：</label>
+                                <input type="email" placeholder="请输入用户名" id="exampleInputEmail2" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label style="margin-left:10px; ">    密码：</label>
+                                <input type="password" placeholder="请输入密码" id="exampleInputPassword2" class="form-control">
+                            </div>
+							<div class="form-group">
+                                <label style="margin-left:10px; ">   用户名：</label>
+                                <input type="email" placeholder="请输入用户名" id="exampleInputEmail2" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label style="margin-left:10px; ">   密码：</label>
+                                <input type="password" placeholder="请输入密码" id="exampleInputPassword2" class="form-control">
+                            </div>
+							<div class="form-group">
+                                <label style="margin-left:10px; ">    密码：</label>
+                                <input type="password" placeholder="请输入密码" id="exampleInputPassword2" class="form-control">
+                            </div>
+							<div class="form-group">
+                                <label style="margin-left:10px; ">   用户名：</label>
+                                <input type="email" placeholder="请输入用户名" id="exampleInputEmail2" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label style="margin-left:10px; ">   密码：</label>
+                                <input type="password" placeholder="请输入密码" id="exampleInputPassword2" class="form-control">
+                            </div>
+                            <div class="checkbox" style="width:100%; margin-top:10px; ">
+                                <button class="btn btn-sm btn-primary pull-right m-t-n-xs" type="button"><i class="fa fa-search">查询</i></button>
+                            </div>
+                            
+                        </form>
+					</div>
+                    <div class="ibox-content">
+                        <table id="table_2" class="table table-striped table-bordered table-hover dataTables-example">
+                            <thead>
+                                <tr>
+                                    <th>渲染引擎</th>
+                                    <th>浏览器</th>
+                                    <th>平台</th>
+                                    <th>引擎版本</th>
+                                    <th>CSS等级</th>
+									<th>CSS操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+							<tr >
+                                    <td>Trident</td>
+                                    <td>Internet Explorer 4.0
+                                    </td>
+                                    <td>Win 95+</td>
+                                    <td class="center">4</td>
+                                    <td class="center">X</td>
+									<td>
+									<button type="button" class="btn btn-xs btn-primary btn-edit" data-toggle="modal" data-target="#editSubResourceModal"  href="/backend/resources/edit.html?id=${resourcesSub.id}">修改</button>
+									<a class="btn btn-xs btn-danger btn-del"  data-toggle="confirmation-singleton" id="${resourcesSub.id}" data-href="javascript:delPR('${resourcesSub.id}')" data-placement="left"  data-btnOkLabel="确认" data-btnCancelLabel="取消" data-title="级联删除，其下级资源也将被删除，确认要删除吗？" > 删除</a>
+									</td>
+                                </tr>
+                                <tr >
+                                    <td>Trident</td>
+                                    <td>Internet Explorer 5.0
+                                    </td>
+                                    <td>Win 95+</td>
+                                    <td class="center">5</td>
+                                    <td class="center">C</td>
+									<td>
+									<button type="button" class="btn btn-xs btn-primary btn-edit" data-toggle="modal" data-target="#editSubResourceModal"  href="/backend/resources/edit.html?id=${resourcesSub.id}">修改</button>
+									<a class="btn btn-xs btn-danger btn-del"  data-toggle="confirmation-singleton" id="${resourcesSub.id}" data-href="javascript:delPR('${resourcesSub.id}')" data-placement="left"  data-btnOkLabel="确认" data-btnCancelLabel="取消" data-title="级联删除，其下级资源也将被删除，确认要删除吗？" > 删除</a>
+									</td>
+                                </tr>
+                                <tr >
+                                    <td>Trident</td>
+                                    <td>Internet Explorer 5.5
+                                    </td>
+                                    <td>Win 95+</td>
+                                    <td class="center">5.5</td>
+                                    <td class="center">A</td>
+									<td>
+									<button type="button" class="btn btn-xs btn-primary btn-edit" data-toggle="modal" data-target="#editSubResourceModal"  href="/backend/resources/edit.html?id=${resourcesSub.id}">修改</button>
+									<a class="btn btn-xs btn-danger btn-del"  data-toggle="confirmation-singleton" id="${resourcesSub.id}" data-href="javascript:delPR('${resourcesSub.id}')" data-placement="left"  data-btnOkLabel="确认" data-btnCancelLabel="取消" data-title="级联删除，其下级资源也将被删除，确认要删除吗？" > 删除</a>
+									</td>
+                                </tr>
+                                <tr >
+                                    <td>Trident</td>
+                                    <td>Internet Explorer 6
+                                    </td>
+                                    <td>Win 98+</td>
+                                    <td class="center">6</td>
+                                    <td class="center">A</td>
+									<td>
+									<button type="button" class="btn btn-xs btn-primary btn-edit" data-toggle="modal" data-target="#editSubResourceModal"  href="/backend/resources/edit.html?id=${resourcesSub.id}">修改</button>
+									<a class="btn btn-xs btn-danger btn-del"  data-toggle="confirmation-singleton" id="${resourcesSub.id}" data-href="javascript:delPR('${resourcesSub.id}')" data-placement="left"  data-btnOkLabel="确认" data-btnCancelLabel="取消" data-title="级联删除，其下级资源也将被删除，确认要删除吗？" > 删除</a>
+									</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+    <script src="js/jquery.min.js?v=2.1.4"></script>
+    <script src="js/bootstrap.min.js?v=3.3.6"></script>
+	<script src="js/plugins/dataTables/jquery.dataTables.js"></script>
+    <script src="js/plugins/dataTables/dataTables.bootstrap.js"></script>
+	<!-- bootstrap-confirmation -->
+<script type="text/javascript" src="http://cdn.dui1dui.com/bootstrap/static/plugins/bootstrap-confirmation/js/bootstrap-transition.js"></script>
+<script type="text/javascript" src="http://cdn.dui1dui.com/bootstrap/static/plugins/bootstrap-confirmation/js/bootstrap-tooltip.js"></script>
+<script type="text/javascript" src="http://cdn.dui1dui.com/bootstrap/static/plugins/bootstrap-confirmation/js/bootstrap-confirmation.js"></script>
+	<script>
+        $(document).ready(function () {
+        	
+			
+			$("#table_2").dataTable(
+				{"ordering":false, "bFilter":false}
+			);
+        });
+		
+		!function ($) {
+
+	$(function(){
+
+		$('[data-toggle="confirmation"]').confirmation();
+		$('[data-toggle="confirmation-singleton"]').confirmation({singleton:true});
+		$('[data-toggle="confirmation-popout"]').confirmation({popout: true});
+
+	})
+
+}(window.jQuery)
+
+function delPR(id) {
+	var url ="/backend/resources/del.do";
+	$.post(url, {"id":id,"type":"platform"}, function(result) {
+		$('#'+id).confirmation("destroy");
+		BootstrapDialog.show({
+			title: '提示消息',
+			message: result.message
+		});
+		self.location.reload();//刷新当前tab页面
+	}, 'json');
+
+}
+    </script>
+</body>
+
+
+<!-- Mirrored from www.zi-han.net/theme/hplus/tabs_panels.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:19:53 GMT -->
+</html>
