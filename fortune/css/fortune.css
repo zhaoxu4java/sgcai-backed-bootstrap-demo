@@ -1,5 +1,25 @@
 .top-navigation .navbar-brand {
     background: #f40002 none repeat scroll 0 0;
-    color: #fff;
+    color: #f8ab07;
     padding: 15px 25px;
+}
+
+.top-navigation .nav > li.active > a {
+    color: #f40002;
+}
+
+.text-navy {
+    color: #f40002;
+}
+
+.top-navigation .nav > li  a:focus, .top-navigation .nav > li a:hover{
+    color: #f40002;
+}
+
+.red{
+	color:#f40002;
+}
+
+.form-control:focus, .single-line:focus{
+	border-color:#f40002;
 }
